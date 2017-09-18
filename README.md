@@ -1,0 +1,2 @@
+# shard-redis
+基于jedis的ShardedJedis实现的客户端redis分片及Spring Cache的支持
