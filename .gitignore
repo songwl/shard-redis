@@ -1,22 +1,79 @@
-# Compiled class file
+# Compiled source #
+###################
+*.com
 *.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Log file
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+
+# Logs and databases #
+######################
 *.log
 
-# BlueJ files
-*.ctxt
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Editor Files #
+################
+*~
+*.swp
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Gradle Files #
+################
+.gradle
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Build output directies
+/target
+*/target
+**/target
+/build
+*/build
+/log
+
+# IntelliJ specific files/directories
+out
+.idea
+*/*.idea
+*.ipr
+*.iws
+*.iml
+/*.iml
+*/*.iml
+
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+.myeclipse
+.factorypath
+
+# NetBeans specific files/directories
+.nbattrs
+
+# Subversion directory #
+.svn
+
+**/cscope.*
+**/tags
+INSTANCE_DEFAULT_LOG_PATH_IS_UNDEFINED

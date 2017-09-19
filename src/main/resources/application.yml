@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: shard-redis-app
+
+redis:
+  shards: 127.0.0.1:6379,127.0.0.1:6380,127.0.0.1:6381
+  pool:
+      max-total: 64
+      max-idle: 32
+      min-idle: 16
+      max-wait-millis: 5000
